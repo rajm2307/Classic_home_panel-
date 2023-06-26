@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* HOME -- SECTION */
+.contents {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contents1 ul,
+.contents2 ul,
+.contents3 ul,
+.contents4 ul {
+    margin-top: 35px;
+    margin-left: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.contents1 ul li,
+.contents2 ul li,
+.contents3 ul li,
+.contents4 ul li {
+    list-style: none;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+
+.contents ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.description {
+    /* height: 85vh; */
+    /* width: 50vw; */
+    margin: 60px auto 0px auto;
+    border: 2px rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 2px 0px black;
+
+}
+
+.description pre {
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.description .desc {
+    margin: 10px 10px;
+}
+
+.description .desc h3{
+    margin-top: 40px;
+}
+.description .desc hr{
+    margin-bottom: 30px;
+}
+
+
+
+/* CONTACT --SECTION */
+.contact {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin: 60px auto 0px auto;
+    border: 2px rgb(0, 0, 0) solid;
+    border-radius: 25px;
+    box-shadow: 10px 10px 2px 0px black;
+
+}
+
+.cont {
+    margin: 30px 30px 30px 30px;
+
+}
+
+.cont h5 {
+    font-weight: normal;
+}
+
+.cont input {
+    width: 550px;
+    height: 35px;
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+
+
+
+
+/* INFORMATION --SECTION */
+.info {
+    margin: 60px auto 0px auto;
+    border: 2px rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 2px 0px black;
+}
+
+.info pre {
+    font-size: 19px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    width: 1061px;
+}
+
+.info h3 {
+    margin-left: 50px;
+}
+
+.lists {
+    /* border: 2px red solid; */
+    display: flex;
+    margin: 50px;
+}
+
+.lists .inform ul {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.lists .inform ul li {
+    margin-top: 0px;
+    width: 452px;
+}
+
+
+.lists ul li {
+    list-style: none;
+    font-size: 25px;
+    /* margin-top: 25px; */
+    padding: 10px;
+    border: 2px rgb(0, 0, 0) solid;
+    width: 267px;
+}
+
+
+
+
+/* GUIDE --SECTION */
+
+.guides{
+    border: 2px black solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 20px;padding: 20px;
+    margin: 60px auto 0px auto;
+    box-shadow: 10px 10px 2px 0px black;
+
+}
+
+.guide1{
+    margin: 60px auto 100px auto;
+    text-align: center;
+}
+
+.guide1 img{
+    margin-bottom: 50px;
+}
+
+span{
+    color: blue;
+}
+
+.guide2 h3{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.guide2 p{
+    margin-bottom: 15px;
+}
+ 
+.guide2 hr{
+    position: relative;
+    bottom: 35px;
+    margin-bottom: 20px;
+
+}
